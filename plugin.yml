@@ -1,0 +1,6 @@
+name: ConsoleLogCommands
+main: fr.black_eyes.consoleMessage.Main
+version: 1.0
+api-version: 1.13
+description: >
+             Execute one or multiple commands when a log message is sent

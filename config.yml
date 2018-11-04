@@ -1,0 +1,16 @@
+messages:
+  #The plugin checks if the whole line contains a text, so that you can do that:
+  "Server thread/WARN":
+    - "broadcast &cAn error was detected!"
+    - "plugman disable someplugin"
+    - "bc A plugin was disable to prevent errors"
+  #I'm not a complotist, that's only an example
+  "[ASkyBlock] Metrics loaded. ":
+    - "bc &bThe metrics spy is now looking your server"
+  #The plugin checks the line ignoring the case, so event if they write "MoThErfucKer" it will work
+  "motherfucker":
+    - "bc &4&lDon't swear in chat please!"
+  #Since the whole line is checked, let's have fun with sheduled commands. But it needs a command to be executed or a player message
+  "[16:00:00]":
+    - "mineResetLite reset mine1"
+
